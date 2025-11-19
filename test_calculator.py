@@ -47,7 +47,7 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
         with self.assertRaises(ZeroDivisionError):
-            div(0, 5)
+            div(5, 0)
 
     def test_logarithm(self): # 3 assertions I (Marley) wrote this idk
         self.assertEqual(logarithm(8,2),3)
