@@ -56,7 +56,7 @@ class TestCalculator(unittest.TestCase):
         self.assertNotEqual(logarithm(8,2,),4)
         
 
-    # def test_log_invalid_base(self): # 1 assertion
+    def test_log_invalid_base(self): # 1 assertion
     #     # use same technique from test_divide_by_zero
     with self.assertRaises(ValueError):
               lograrithm(5,1)
